@@ -14,7 +14,7 @@ body {
 .container {
   position: relative;
   width: 400px;
-  padding: 30px 30px 70px;
+  padding: 30px 30px;
   background-color: rgba(128, 128, 128, 0.429);
   display: flex;
   justify-content: center;
