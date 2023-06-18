@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  padding: 30px 30px 70px;
+  background-color: rgba(128, 128, 128, 0.429);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  border: 1px solid wheat;
+}
+h2 {
+  color: wheat;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.container .input-box {
+  position: relative;
+  width: 100%;
+}
+.container .input-box input {
+  position: relative;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  padding: 8px 15px;
+}
+.container .strengthMeter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+
+.show {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 60px;
+  height: 80%;
+  color: wheat;
+  font-size: 0.6em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: rgba(128, 128, 128, 0.429);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  margin-top: 50px;
+  color: aliceblue;
+  font-size: 20px;
+}
